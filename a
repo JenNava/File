@@ -1,0 +1,6 @@
+var proxy = "HTTPS gigantic-heyrovsky-4840.arukascloud.io;";
+var hasOwnProperty = Object.hasOwnProperty;
+
+function FindProxyForURL(url, host) {
+                return proxy;
+}
